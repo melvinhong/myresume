@@ -5,3 +5,15 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+#
+Zone.create!( value: "Madrid",
+              offset: -8)
+
+Zone.create!( value: "Detroit",
+              offset: -14)
+
+Zone.create!( value: "Kuala_Lumpur",
+              offset: -2)
+
+data = ActiveSupport::JSON.decode(File.read("db/zone.json"))
+Zone.create(data)
