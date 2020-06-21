@@ -19,7 +19,7 @@ gem 'js_cookie_rails'
 gem 'carrierwave', '1.2.2'
 gem 'mini_magick', '4.7.0'
 # Bootstrap
-gem 'bootstrap', '~> 4.0.0'
+gem 'bootstrap', '~> 4.3.1'
 
 gem 'faker',          '2.1.2'
 gem 'bcrypt'
