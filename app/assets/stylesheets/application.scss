@@ -10165,3 +10165,40 @@
      padding-bottom: 5rem;
    }
  }
+
+
+
+ // misclleneous
+
+  .overlay-container {
+    position: relative;
+  }
+
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+    opacity:0.5;
+  }
+
+  .overlay-container:hover .overlay{
+    width: 100%;
+  }
+
+  .overlay-text{
+    color: #343a40;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+  }
